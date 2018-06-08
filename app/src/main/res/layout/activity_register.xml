@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="projects.tiji.com.famtracker.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:text="Welcome to PeerTracker"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:textColor="#fff"
+
+            android:text="A place where you can spot your dear ones and know how safe they are."/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/person1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="To join us please provide a valid mail id"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColor="#fff"
+        android:onClick="registerButtonClicked"
+        android:id="@+id/button5"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/buttonpink"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailField"
+        android:hint="Enter email"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projects.tiji.com.famtracker.LoginActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:text="Welcome to PeerTracker"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"
+            android:textColor="#fff"
+            android:text="A place where you can spot where your dear ones are and know how safe they are."/>
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+           android:layout_gravity="center"
+            android:background="@drawable/person1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <EditText
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:id="@+id/logInEmail"/>
+    <EditText
+        android:drawablePadding="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:drawableLeft="@drawable/password"
+        android:id="@+id/logInPass"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textColor="#fff"
+        android:background="@drawable/buttonpink"
+        android:onClick="loginButtonClicked"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardView="http://schemas.android.com/tools"
+    cardView:cardElevation="3dp"
+    cardView:contentPadding="4dp"
+    cardView:cardCornerRadius="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@android:color/white"
+    android:foreground="?selectableItemBackground"
+    app:cardBackgroundColor="?attr/colorBackgroundFloating">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/person"
+            android:layout_margin="5dp"
+            android:text="Username"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/item_title"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/map"
+            android:id="@+id/post_image"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/email2"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"
+            android:text="Email"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/textMail"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/delete"
+            android:layout_marginLeft="180dp"
+            android:visibility="visible"
+            android:id="@+id/deleteBotton"
+            />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "758149805177",
+    "firebase_url": "https://famtracker-f341a.firebaseio.com",
+    "project_id": "famtracker-f341a",
+    "storage_bucket": "famtracker-f341a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758149805177:android:17b793407bca7417",
+        "android_client_info": {
+          "package_name": "calcounterapplication2017.com.smartscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758149805177-h4pe5p270p6k75d6205ng3plq3si2mgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "calcounterapplication2017.com.smartscan",
+            "certificate_hash": "8c0bec2ee110a7c9674628e7e1e121453a7cc55a"
+          }
+        },
+        {
+          "client_id": "758149805177-scgdmff6ok1rn13cl2b4on5q3np7er4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAk_CHklhbL6d8Eikhw3m3V6-JFinfBVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758149805177-scgdmff6ok1rn13cl2b4on5q3np7er4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758149805177:android:69656ea1902cbb3a",
+        "android_client_info": {
+          "package_name": "projects.tiji.com.famtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758149805177-55bnlqhemuauiu2ng1542mij4i1viq6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "projects.tiji.com.famtracker",
+            "certificate_hash": "8c0bec2ee110a7c9674628e7e1e121453a7cc55a"
+          }
+        },
+        {
+          "client_id": "758149805177-scgdmff6ok1rn13cl2b4on5q3np7er4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAk_CHklhbL6d8Eikhw3m3V6-JFinfBVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758149805177-scgdmff6ok1rn13cl2b4on5q3np7er4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

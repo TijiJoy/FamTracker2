@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inviteMembers"
+            android:icon="@drawable/invitemember"
+            android:title="Invite Members" />
+        <item
+            android:id="@+id/joinCircle"
+            android:icon="@drawable/joincircle"
+            android:title="Join Circle" />
+        <item
+            android:id="@+id/joinedCircle"
+            android:icon="@drawable/mycircle"
+            android:title="My Circle Members" />
+
+        <item android:id="@+id/myjoinedCircle"
+        android:icon="@drawable/mycircle"
+        android:title="My Joined Circle"
+        />
+        <item
+            android:id="@+id/shareLoc"
+            android:icon="@drawable/sharelocation"
+            android:title="Share Location" />
+        <item
+            android:id="@+id/signOut"
+            android:icon="@drawable/signout"
+            android:title="SignOut" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
