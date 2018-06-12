@@ -15,15 +15,16 @@
         android:background="@color/colorPrimaryDark"
         android:weightSum="1"
         android:id="@+id/linearLayout8"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <TextView
-            android:layout_width="373dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:textColor="#fff"
-            android:text="Welcome to PeerTracker"/>
+            android:textAlignment="center"
+            android:text="Welcome to Buddy Tracker"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -31,7 +32,9 @@
             android:textSize="16sp"
             android:layout_marginTop="25dp"
             android:textColor="#fff"
-            android:text="A place where you can spot  your dear ones  and know how safe they are."/>
+            android:textAlignment="center"
+            android:paddingLeft="45dp"
+            android:text="A place to spot your dear ones !"/>
         <ImageView
             android:layout_width="95dp"
             android:layout_height="95dp"
@@ -61,15 +64,13 @@
                 android:layout_centerHorizontal="true" />
 
             <Button
-                android:padding="15dp"
             android:text="SIGN IN"
                 android:textColor="#fff"
                 android:layout_margin="10dp"
-                android:background="@drawable/buttonstyle"
+                android:background="@drawable/buttonpink"
             android:onClick="goToLoginActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
             android:id="@+id/button3"
             />
         </LinearLayout>

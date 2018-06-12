@@ -17,11 +17,12 @@
         android:weightSum="1">
 
         <TextView
-            android:layout_width="373dp"
+            android:layout_width="323dp"
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:textColor="#fff"
-            android:text="Welcome to PeerTracker"/>
+            android:textAlignment="center"
+            android:text="Welcome to Buddy Tracker"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,7 +30,9 @@
             android:textSize="15sp"
             android:layout_marginTop="25dp"
             android:textColor="#fff"
-            android:text="A place where you can spot where your dear ones are and know how safe they are."/>
+            android:layout_marginLeft="45dp"
+            android:textAlignment="center"
+            android:text="A place to spot your dear ones !"/>
         <ImageView
             android:layout_width="75dp"
             android:layout_height="75dp"

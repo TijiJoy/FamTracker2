@@ -121,7 +121,7 @@ locreference.addValueEventListener(new ValueEventListener() {
             result += addresses.get(0).getCountryName();
             LatLng latLng = new LatLng(longitude, latitude);
         //    mMap.addMarker(new MarkerOptions().position(latLng).title(name + '\n'+ result));
-            mMap.addMarker(new MarkerOptions().position(latLng).title(name));
+            mMap.addMarker(new MarkerOptions().position(latLng).title(name)).showInfoWindow();
             mMap.setMaxZoomPreference(20);
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,10.2f));
 

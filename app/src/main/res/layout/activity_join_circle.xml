@@ -16,10 +16,11 @@
         android:weightSum="1"
         android:id="@+id/linearLayout">
         <TextView
-            android:layout_width="411dp"
+            android:layout_width="286dp"
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:textColor="#fff"
+            android:textAlignment="center"
             android:text=" Join User circle."/>
         <TextView
             android:layout_width="wrap_content"
@@ -27,6 +28,7 @@
             android:textSize="15sp"
             android:layout_marginTop="25dp"
             android:textColor="#fff"
+            android:textAlignment="center"
             android:text="Please enter the invitation code received from your friend in the  below box."/>
 
         <ImageView

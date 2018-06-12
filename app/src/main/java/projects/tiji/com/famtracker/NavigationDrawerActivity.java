@@ -96,7 +96,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                 @Override
                 public void onLocationChanged(Location location) {
                     //get the latitude and longitude from the location
-                   latitude = location.getLatitude();
+                   latitude = location.getLatitude();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ;
 
                      longitude = location.getLongitude();
 
@@ -112,7 +112,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                         result += addresses.get(0).getLocality()+":";
                         result += addresses.get(0).getCountryName();
                         LatLng latLng = new LatLng(latitude, longitude);
-                        mMap.addMarker(new MarkerOptions().position(latLng).title("My Location"));
+                        mMap.addMarker(new MarkerOptions().position(latLng).title("My Location")).showInfoWindow();
                         mMap.setMaxZoomPreference(20);
                         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,10.2f));
                     } catch (IOException e) {

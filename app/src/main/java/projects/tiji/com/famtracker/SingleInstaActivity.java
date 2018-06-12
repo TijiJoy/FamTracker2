@@ -30,7 +30,6 @@ public class SingleInstaActivity extends AppCompatActivity implements OnMapReady
     LatLng latLng;
     String circlememeberid;
     DatabaseReference reference, usersReference;
-    ;
     FirebaseUser user;
     GoogleMap mMap;
 
@@ -54,7 +53,7 @@ public class SingleInstaActivity extends AppCompatActivity implements OnMapReady
             result += addresses.get(0).getLocality() + ":";
             result += addresses.get(0).getCountryName();
             LatLng latLng = new LatLng(latitude, longitude);
-            mMap.addMarker(new MarkerOptions().position(latLng).title(result));
+            mMap.addMarker(new MarkerOptions().position(latLng).title(result)).showInfoWindow();
             mMap.setMaxZoomPreference(20);
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10.2f));
         } catch (IOException e) {

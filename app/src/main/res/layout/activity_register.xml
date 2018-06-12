@@ -23,11 +23,13 @@ tools:context="projects.tiji.com.famtracker.RegisterActivity">
         android:layout_alignParentStart="true">
 
         <TextView
-            android:layout_width="373dp"
+            android:layout_width="272dp"
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:textColor="#fff"
-            android:text="Welcome to PeerTracker"/>
+            android:textAlignment="center"
+            android:text="Welcome to Buddy Tracker"
+            android:id="@+id/textView2" />
 
 
         <TextView
@@ -36,8 +38,8 @@ tools:context="projects.tiji.com.famtracker.RegisterActivity">
             android:textSize="15sp"
             android:layout_marginTop="25dp"
             android:textColor="#fff"
-
-            android:text="A place where you can spot your dear ones and know how safe they are."/>
+android:layout_marginLeft="45dp"
+            android:text="A place to spot your dear ones."/>
 
         <ImageView
             android:layout_width="75dp"
@@ -47,10 +49,11 @@ tools:context="projects.tiji.com.famtracker.RegisterActivity">
             android:background="@drawable/person1"
             />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="252dp"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:text="To join us please provide a valid mail id"
+            android:textAlignment="center"
+            android:text="Please provide your email id to setup your account."
             android:layout_marginTop="25dp"/>
     </LinearLayout>
 
