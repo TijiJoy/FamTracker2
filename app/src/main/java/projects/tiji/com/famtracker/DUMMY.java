@@ -67,7 +67,7 @@ locreference.addValueEventListener(new ValueEventListener() {
             result += addresses.get(0).getCountryName();
             LatLng latLng2 = new LatLng(user_latitude,user_longitude);
             BitmapDescriptor bitmapDescriptor= BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW);
-            mMap1.addMarker(new MarkerOptions().position(latLng2).title(name2).icon(bitmapDescriptor));
+            mMap1.addMarker(new MarkerOptions().position(latLng2).title(name2).icon(bitmapDescriptor)).showInfoWindow();
             mMap1.setMaxZoomPreference(20);
             mMap1.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng2,10.2f));
         } catch (IOException e) {
